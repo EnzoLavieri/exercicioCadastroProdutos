@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="7"/>
+        <CursorPos Y="30"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cadmodelo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="cadModeloF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="cadModelo"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="21"/>
+        <CursorPos X="22" Y="42"/>
+        <UsageCount Value="25"/>
+      </Unit>
+      <Unit>
+        <Filename Value="oplogin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="opLoginF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="31"/>
+        <CursorPos X="45" Y="25"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cadesqsenha.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="cadEsqSenhaf"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="cadEsqSenha"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="22"/>
+        <CursorPos X="3" Y="40"/>
+        <UsageCount Value="25"/>
+      </Unit>
+      <Unit>
+        <Filename Value="menuprincipal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="menuPrincipalF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="menuPrincipal"/>
+        <TopLine Value="64"/>
+        <CursorPos X="3" Y="86"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="opsobre.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="opSobreF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="opSobre"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="3" Y="14"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cadclientes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="cadClienteF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="cadClientes"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="7"/>
+        <CursorPos X="12" Y="15"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cadprodutos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="cadProdutosF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="10"/>
+        <CursorPos X="3" Y="14"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cadusuario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="cadUsuarioF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="cadUsuario"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="7" Y="15"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cadfornecedor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="cadForecF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="cadFornecedor"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="18"/>
+        <CursorPos X="8" Y="42"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cadvended.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="cadVendedoresF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="cadVended"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11"/>
+        <UsageCount Value="21"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="21">
+      <Position>
+        <Filename Value="menuprincipal.pas"/>
+        <Caret Line="9" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="menuprincipal.pas"/>
+        <Caret Line="73" Column="13" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="menuprincipal.pas"/>
+        <Caret Line="73" Column="22" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="menuprincipal.pas"/>
+        <Caret Line="80" Column="22" TopLine="59"/>
+      </Position>
+      <Position>
+        <Filename Value="oplogin.pas"/>
+        <Caret Line="41" Column="29" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="oplogin.pas"/>
+        <Caret Line="59" Column="3" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="oplogin.pas"/>
+        <Caret Line="61" Column="3" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="oplogin.pas"/>
+        <Caret Line="66" Column="3" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="oplogin.pas"/>
+        <Caret Line="65" Column="3" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="oplogin.pas"/>
+        <Caret Line="66" Column="3" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="menuprincipal.pas"/>
+        <Caret Line="70" Column="25" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="menuprincipal.pas"/>
+        <Caret Line="29" Column="53" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="menuprincipal.pas"/>
+        <Caret Line="81" Column="3" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="menuprincipal.pas"/>
+        <Caret Line="80" Column="3" TopLine="70"/>
+      </Position>
+      <Position>
+        <Filename Value="menuprincipal.pas"/>
+        <Caret Line="24" Column="25" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="oplogin.pas"/>
+        <Caret Line="67" Column="3" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="oplogin.pas"/>
+        <Caret Line="58" Column="5" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="menuprincipal.pas"/>
+        <Caret Line="82" Column="37"/>
+      </Position>
+      <Position>
+        <Filename Value="menuprincipal.pas"/>
+        <Caret Line="86" Column="3" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="28" Column="30" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="cadprodutos.pas"/>
+        <Caret Line="14" Column="3" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="cadclientes.pas"/>
+        <Caret Line="18" Column="5" TopLine="13"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

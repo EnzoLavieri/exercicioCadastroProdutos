@@ -1,0 +1,26 @@
+object opSobreF: TopSobreF
+  Left = 1069
+  Height = 550
+  Top = 147
+  Width = 719
+  Caption = 'Sobre'
+  ClientHeight = 550
+  ClientWidth = 719
+  LCLVersion = '3.8.0.0'
+  object Memo1: TMemo
+    Left = 240
+    Height = 152
+    Top = 176
+    Width = 216
+    Lines.Strings = (
+      'Versão 0.1.5'
+      '--------------'
+      'Data 19/02/2025'
+      '--------------'
+      'Software para cadastro de produtos.'
+      '-------------'
+    )
+    TabOrder = 0
+    OnChange = Memo1Change
+  end
+end

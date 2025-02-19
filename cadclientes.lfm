@@ -1,0 +1,127 @@
+inherited cadClienteF: TcadClienteF
+  Left = 1095
+  Top = 217
+  Caption = 'Cadastro cliente'
+  inherited PageControl1: TPageControl
+    ActivePage = TabSheet2
+    TabIndex = 1
+    inherited TabSheet2: TTabSheet
+      ClientHeight = 567
+      ClientWidth = 762
+      object edtIdCadCliente: TEdit[0]
+        Left = 272
+        Height = 23
+        Top = 98
+        Width = 136
+        TabOrder = 0
+      end
+      object edtNomeFantasia: TEdit[1]
+        Left = 272
+        Height = 23
+        Top = 194
+        Width = 136
+        TabOrder = 1
+      end
+      object edtTelefone: TEdit[2]
+        Left = 272
+        Height = 23
+        Top = 338
+        Width = 136
+        TabOrder = 2
+      end
+      object edtEmail: TEdit[3]
+        Left = 272
+        Height = 23
+        Top = 386
+        Width = 136
+        TabOrder = 3
+      end
+      object edtCnpjCpf: TEdit[4]
+        Left = 272
+        Height = 23
+        Top = 146
+        Width = 136
+        TabOrder = 4
+      end
+      object edtRazaoSocial: TEdit[5]
+        Left = 272
+        Height = 23
+        Top = 242
+        Width = 136
+        TabOrder = 5
+      end
+      object edtEndereco: TEdit[6]
+        Left = 272
+        Height = 23
+        Top = 290
+        Width = 136
+        TabOrder = 6
+      end
+      object Label2: TLabel[7]
+        Left = 277
+        Height = 15
+        Top = 80
+        Width = 14
+        Caption = 'ID:'
+      end
+      object Label3: TLabel[8]
+        Left = 272
+        Height = 15
+        Top = 130
+        Width = 56
+        Caption = 'CPF/CNPJ:'
+      end
+      object Label4: TLabel[9]
+        Left = 272
+        Height = 15
+        Top = 178
+        Width = 80
+        Caption = 'Nome fantasia:'
+      end
+      object Label5: TLabel[10]
+        Left = 272
+        Height = 15
+        Top = 226
+        Width = 67
+        Caption = 'Razao social:'
+      end
+      object Label6: TLabel[11]
+        Left = 272
+        Height = 15
+        Top = 274
+        Width = 52
+        Caption = 'Endereço:'
+      end
+      object Label7: TLabel[12]
+        Left = 272
+        Height = 15
+        Top = 322
+        Width = 48
+        Caption = 'Telefone:'
+      end
+      object Label8: TLabel[13]
+        Left = 277
+        Height = 15
+        Top = 370
+        Width = 32
+        Caption = 'Email:'
+      end
+      object btnSalvarClientes: TButton[14]
+        Left = 272
+        Height = 25
+        Top = 426
+        Width = 75
+        Caption = 'Salvar'
+        TabOrder = 7
+      end
+      object btnCancelar: TButton[15]
+        Left = 360
+        Height = 25
+        Top = 426
+        Width = 75
+        Caption = 'Cancelar'
+        TabOrder = 8
+      end
+    end
+  end
+end

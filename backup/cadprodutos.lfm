@@ -1,0 +1,82 @@
+inherited cadProdutosF: TcadProdutosF
+  Caption = 'Cadastro de produtos'
+  inherited PageControl1: TPageControl
+    ActivePage = TabSheet2
+    TabIndex = 1
+    inherited TabSheet2: TTabSheet
+      ClientHeight = 567
+      ClientWidth = 762
+      object edtIdCadProduto: TEdit[0]
+        Left = 328
+        Height = 23
+        Top = 152
+        Width = 152
+        TabOrder = 0
+      end
+      object edtDescSimples: TEdit[1]
+        Left = 328
+        Height = 23
+        Top = 192
+        Width = 152
+        TabOrder = 1
+      end
+      object edtDescCompleta: TEdit[2]
+        Left = 328
+        Height = 23
+        Top = 240
+        Width = 152
+        TabOrder = 2
+      end
+      object edtValorVenda: TEdit[3]
+        Left = 328
+        Height = 23
+        Top = 288
+        Width = 152
+        TabOrder = 3
+      end
+      object cbTipoProduto: TComboBox[4]
+        Left = 328
+        Height = 23
+        Top = 320
+        Width = 100
+        ItemHeight = 15
+        ItemIndex = 0
+        Items.Strings = (
+          'Tipo item 1'
+          'Tipo item 2'
+          'Tipo item 3'
+        )
+        TabOrder = 4
+        Text = 'Tipo item 1'
+      end
+      object Label2: TLabel[5]
+        Left = 328
+        Height = 15
+        Top = 139
+        Width = 56
+        Caption = 'Id produto'
+      end
+      object Label3: TLabel[6]
+        Left = 328
+        Height = 15
+        Top = 176
+        Width = 90
+        Caption = 'Descicao simples'
+      end
+      object Label4: TLabel[7]
+        Left = 328
+        Height = 15
+        Top = 224
+        Width = 104
+        Caption = 'Descricao completa'
+      end
+      object Label5: TLabel[8]
+        Left = 328
+        Height = 15
+        Top = 272
+        Width = 77
+        Caption = 'Valor da venda'
+      end
+    end
+  end
+end
