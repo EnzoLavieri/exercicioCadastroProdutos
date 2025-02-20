@@ -3,28 +3,30 @@ inherited cadClienteF: TcadClienteF
   Top = 117
   Width = 326
   Caption = 'Cadastro cliente'
-  ClientWidth = 326
+  ClientHeight = 0
+  ClientWidth = 0
   inherited PageControl1: TPageControl
-    Width = 326
-    ActivePage = TabSheet2
-    TabIndex = 1
+    Height = 0
+    Width = 0
     inherited TabSheet1: TTabSheet
-      ClientWidth = 318
+      ClientHeight = 0
+      ClientWidth = 0
       inherited Panel1: TPanel
-        Width = 318
-        ClientWidth = 318
+        Width = 0
+        ClientWidth = 0
       end
       inherited Panel2: TPanel
-        Width = 318
-        ClientWidth = 318
+        Top = -50
+        Width = 0
+        ClientWidth = 0
       end
       inherited StringGrid1: TStringGrid
-        Width = 318
+        Height = 0
+        Top = 0
+        Width = 0
       end
     end
     inherited TabSheet2: TTabSheet
-      ClientHeight = 567
-      ClientWidth = 318
       object edtIdCadCliente: TEdit[0]
         Left = 24
         Height = 23
@@ -113,7 +115,7 @@ inherited cadClienteF: TcadClienteF
         Left = 24
         Height = 15
         Top = 264
-        Width = 47
+        Width = 48
         Caption = 'Telefone:'
       end
       object Label8: TLabel[13]
@@ -138,6 +140,7 @@ inherited cadClienteF: TcadClienteF
         Width = 64
         Caption = 'Cancelar'
         TabOrder = 8
+        OnClick = btnCancelarClick
       end
     end
   end

@@ -9,8 +9,6 @@ inherited cadForecF: TcadForecF
   inherited PageControl1: TPageControl
     Height = 477
     Width = 668
-    ActivePage = TabSheet2
-    TabIndex = 1
     inherited TabSheet1: TTabSheet
       ClientHeight = 449
       ClientWidth = 660
@@ -143,7 +141,7 @@ inherited cadForecF: TcadForecF
         Left = 24
         Height = 15
         Top = 264
-        Width = 47
+        Width = 48
         Caption = 'Telefone:'
       end
     end

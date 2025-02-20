@@ -1,12 +1,13 @@
 object opLoginF: TopLoginF
-  Left = 395
+  Left = 982
   Height = 545
-  Top = 142
+  Top = 173
   Width = 716
-  Caption = 'opLoginF'
+  Caption = 'Tela de login'
   ClientHeight = 545
   ClientWidth = 716
   LCLVersion = '3.8.0.0'
+  WindowState = wsMaximized
   object edtEmail: TEdit
     Left = 24
     Height = 23

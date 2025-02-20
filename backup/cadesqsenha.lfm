@@ -1,11 +1,12 @@
 object cadEsqSenhaf: TcadEsqSenhaf
-  Left = 659
-  Height = 548
-  Top = 128
-  Width = 717
-  Caption = 'cadEsqSenhaf'
-  ClientHeight = 548
-  ClientWidth = 717
+  Left = 701
+  Height = 446
+  Top = 281
+  Width = 607
+  Align = alCustom
+  Caption = 'Cadastrar nova senha'
+  ClientHeight = 446
+  ClientWidth = 607
   LCLVersion = '3.8.0.0'
   object edtEmail: TEdit
     Left = 184

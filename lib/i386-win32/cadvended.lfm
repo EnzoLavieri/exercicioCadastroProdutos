@@ -3,26 +3,30 @@ inherited cadVendedoresF: TcadVendedoresF
   Top = 115
   Width = 734
   Caption = 'Cadastro vendedor'
-  ClientWidth = 734
+  ClientHeight = 0
+  ClientWidth = 0
   inherited PageControl1: TPageControl
-    Width = 734
+    Height = 0
+    Width = 0
     inherited TabSheet1: TTabSheet
-      ClientWidth = 726
+      ClientHeight = 0
+      ClientWidth = 0
       inherited Panel1: TPanel
-        Width = 726
-        ClientWidth = 726
+        Width = 0
+        ClientWidth = 0
       end
       inherited Panel2: TPanel
-        Width = 726
-        ClientWidth = 726
+        Top = -50
+        Width = 0
+        ClientWidth = 0
       end
       inherited StringGrid1: TStringGrid
-        Width = 726
+        Height = 0
+        Top = 0
+        Width = 0
       end
     end
     inherited TabSheet2: TTabSheet
-      ClientHeight = 567
-      ClientWidth = 726
       object edtIdVendedores: TEdit[0]
         Left = 24
         Height = 23
@@ -149,7 +153,7 @@ inherited cadVendedoresF: TcadVendedoresF
         Left = 24
         Height = 15
         Top = 264
-        Width = 47
+        Width = 48
         Caption = 'Telefone:'
       end
     end

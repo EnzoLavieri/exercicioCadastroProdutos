@@ -24,6 +24,7 @@ type
     StringGrid1: TStringGrid;
     TabSheet1: TTabSheet;
     TabSheet2: TTabSheet;
+    procedure btnPesquisarClick(Sender: TObject);
     procedure btnSairClick(Sender: TObject);
   private
 
@@ -43,6 +44,11 @@ implementation
 procedure TcadModeloF.btnSairClick(Sender: TObject);
 begin
   Close;
+end;
+
+procedure TcadModeloF.btnPesquisarClick(Sender: TObject);
+begin
+
 end;
 
 end.

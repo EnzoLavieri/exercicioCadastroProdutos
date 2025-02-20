@@ -1,18 +1,18 @@
 object opLoginF: TopLoginF
-  Left = 395
+  Left = 543
   Height = 545
-  Top = 142
+  Top = 179
   Width = 716
-  Caption = 'opLoginF'
+  Caption = 'Tela de login'
   ClientHeight = 545
   ClientWidth = 716
   LCLVersion = '3.8.0.0'
+  WindowState = wsMaximized
   object edtEmail: TEdit
     Left = 24
     Height = 23
     Top = 88
     Width = 184
-    Alignment = taCenter
     TabOrder = 0
   end
   object edtSenha: TEdit
@@ -20,7 +20,6 @@ object opLoginF: TopLoginF
     Height = 23
     Top = 40
     Width = 184
-    Alignment = taCenter
     TabOrder = 1
   end
   object btnLogar: TButton

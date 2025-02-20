@@ -1,11 +1,12 @@
 object opSobreF: TopSobreF
-  Left = 332
-  Height = 550
-  Top = 115
-  Width = 719
+  Left = 587
+  Height = 374
+  Top = 216
+  Width = 688
+  AutoSize = True
   Caption = 'Sobre'
-  ClientHeight = 550
-  ClientWidth = 719
+  ClientHeight = 374
+  ClientWidth = 688
   LCLVersion = '3.8.0.0'
   object Memo1: TMemo
     Left = 40

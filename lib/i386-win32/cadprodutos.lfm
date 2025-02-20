@@ -1,7 +1,7 @@
 inherited cadProdutosF: TcadProdutosF
-  Left = 549
+  Left = 600
   Height = 567
-  Top = 174
+  Top = 191
   Caption = 'Cadastro de produtos'
   ClientHeight = 567
   inherited PageControl1: TPageControl
@@ -9,15 +9,14 @@ inherited cadProdutosF: TcadProdutosF
     inherited TabSheet1: TTabSheet
       ClientHeight = 539
       inherited Panel2: TPanel
-        Top = 479
+        Top = 489
       end
       inherited StringGrid1: TStringGrid
-        Height = 419
+        Height = 439
       end
     end
     inherited TabSheet2: TTabSheet
       ClientHeight = 539
-      ClientWidth = 762
       object edtIdCadProduto: TEdit[0]
         Left = 24
         Height = 23
@@ -93,7 +92,7 @@ inherited cadProdutosF: TcadProdutosF
         Left = 96
         Height = 15
         Top = 120
-        Width = 70
+        Width = 71
         Caption = 'Tipo do item:'
       end
       object btnSalvarProdutos: TButton[10]

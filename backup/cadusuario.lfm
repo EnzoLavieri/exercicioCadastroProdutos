@@ -43,6 +43,7 @@ inherited cadUsuarioF: TcadUsuarioF
       end
     end
     inherited TabSheet2: TTabSheet
+      ClientHeight = 567
       ClientWidth = 508
       object edtIdCadUsuario: TEdit[0]
         Left = 24
@@ -97,7 +98,7 @@ inherited cadUsuarioF: TcadUsuarioF
         Left = 24
         Height = 23
         Top = 40
-        Width = 100
+        Width = 108
         TabOrder = 7
       end
       object btnSalvarUser: TButton[8]
@@ -174,7 +175,7 @@ inherited cadUsuarioF: TcadUsuarioF
       object edtSenha: TEdit[18]
         Left = 144
         Height = 23
-        Top = 64
+        Top = 40
         Width = 100
         TabOrder = 9
       end

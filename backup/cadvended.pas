@@ -48,7 +48,7 @@ implementation
 
 procedure TcadVendedoresF.btnCancelarClick(Sender: TObject);
 begin
-  Close;
+  close;
 end;
 
 end.
