@@ -6,7 +6,6 @@ object opLoginF: TopLoginF
   Caption = 'opLoginF'
   ClientHeight = 545
   ClientWidth = 716
-  OnCreate = FormCreate
   LCLVersion = '3.8.0.0'
   object edtEmail: TEdit
     Left = 272

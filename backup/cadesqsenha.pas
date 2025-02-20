@@ -18,6 +18,9 @@ type
     edtEmail: TEdit;
     edtSenhaNva: TEdit;
     edtConfirmar: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
     procedure btnCancelarClick(Sender: TObject);
     procedure btnEntrarClick(Sender: TObject);
   private

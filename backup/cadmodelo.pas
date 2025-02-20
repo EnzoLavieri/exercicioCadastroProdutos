@@ -42,7 +42,7 @@ implementation
 
 procedure TcadModeloF.btnSairClick(Sender: TObject);
 begin
-  close  ;
+  Close;
 end;
 
 end.

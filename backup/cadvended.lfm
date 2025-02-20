@@ -1,91 +1,157 @@
 inherited cadVendedoresF: TcadVendedoresF
-  Left = 1143
-  Top = 175
+  Left = 847
+  Top = 115
+  Width = 734
+  Caption = 'Cadastro vendedor'
+  ClientWidth = 734
   inherited PageControl1: TPageControl
+    Width = 734
     ActivePage = TabSheet2
     TabIndex = 1
+    inherited TabSheet1: TTabSheet
+      ClientWidth = 726
+      inherited Panel1: TPanel
+        Width = 726
+        ClientWidth = 726
+      end
+      inherited Panel2: TPanel
+        Width = 726
+        ClientWidth = 726
+      end
+      inherited StringGrid1: TStringGrid
+        Width = 726
+      end
+    end
     inherited TabSheet2: TTabSheet
       ClientHeight = 567
-      ClientWidth = 762
+      ClientWidth = 726
       object edtIdVendedores: TEdit[0]
-        Left = 192
-        Height = 23
-        Top = 40
-        Width = 160
-        TabOrder = 0
-        Text = 'edtIdVendedores'
-      end
-      object edtCnpjCpf: TEdit[1]
-        Left = 192
-        Height = 23
-        Top = 88
-        Width = 160
-        TabOrder = 1
-        Text = 'edtCnpjCpf'
-      end
-      object edtPctComis: TEdit[2]
-        Left = 192
-        Height = 23
-        Top = 336
-        Width = 160
-        TabOrder = 2
-        Text = 'edtPctComis'
-      end
-      object edtNomeFantasia: TEdit[3]
-        Left = 192
+        Left = 24
         Height = 23
         Top = 136
-        Width = 160
+        Width = 64
+        TabOrder = 0
+      end
+      object edtCnpjCpf: TEdit[1]
+        Left = 104
+        Height = 23
+        Top = 136
+        Width = 88
+        TabOrder = 1
+      end
+      object edtPctComis: TEdit[2]
+        Left = 24
+        Height = 23
+        Top = 312
+        Width = 24
+        TabOrder = 2
+      end
+      object edtNomeFantasia: TEdit[3]
+        Left = 24
+        Height = 23
+        Top = 184
+        Width = 168
         TabOrder = 3
-        Text = 'edtNomeFantasia'
       end
       object edtRazaoSocial: TEdit[4]
-        Left = 192
+        Left = 24
         Height = 23
-        Top = 176
-        Width = 160
+        Top = 232
+        Width = 168
         TabOrder = 4
-        Text = 'edtRazaoSocial'
       end
       object edtEndereco: TEdit[5]
-        Left = 192
+        Left = 24
         Height = 23
-        Top = 216
-        Width = 160
+        Top = 40
+        Width = 192
         TabOrder = 5
-        Text = 'edtEndereco'
       end
       object edtTelefone: TEdit[6]
-        Left = 192
+        Left = 24
         Height = 23
-        Top = 256
-        Width = 160
+        Top = 280
+        Width = 136
         TabOrder = 6
-        Text = 'edtTelefone'
       end
       object edtEmail: TEdit[7]
-        Left = 192
+        Left = 24
         Height = 23
-        Top = 296
-        Width = 160
+        Top = 88
+        Width = 192
         TabOrder = 7
-        Text = 'edtEmail'
       end
       object btnSalvarVended: TButton[8]
-        Left = 187
+        Left = 24
         Height = 25
-        Top = 392
+        Top = 344
         Width = 75
-        Caption = 'btnSalvarVended'
+        Caption = 'Salvar'
         TabOrder = 8
       end
       object btnCancelar: TButton[9]
-        Left = 277
+        Left = 117
         Height = 25
-        Top = 392
+        Top = 344
         Width = 75
-        Caption = 'btnCancelar'
+        Caption = 'Cancelar'
         TabOrder = 9
+      end
+      object Label2: TLabel[10]
+        Left = 24
+        Height = 15
+        Top = 72
+        Width = 32
+        Caption = 'Email:'
+      end
+      object Label3: TLabel[11]
+        Left = 24
+        Height = 15
+        Top = 24
+        Width = 52
+        Caption = 'Endereco:'
+      end
+      object Label4: TLabel[12]
+        Left = 24
+        Height = 15
+        Top = 120
+        Width = 14
+        Caption = 'ID:'
+      end
+      object Label5: TLabel[13]
+        Left = 104
+        Height = 15
+        Top = 120
+        Width = 53
+        Caption = 'CPF/CNPJ'
+      end
+      object Label6: TLabel[14]
+        Left = 52
+        Height = 15
+        Top = 316
+        Width = 79
+        Caption = '% de comissao'
+      end
+      object Label7: TLabel[15]
+        Left = 24
+        Height = 15
+        Top = 168
+        Width = 80
+        Caption = 'Nome fantasia:'
+      end
+      object Label8: TLabel[16]
+        Left = 24
+        Height = 15
+        Top = 216
+        Width = 67
+        Caption = 'Razao social:'
+      end
+      object Label9: TLabel[17]
+        Left = 24
+        Height = 15
+        Top = 264
+        Width = 47
+        Caption = 'Telefone:'
       end
     end
   end

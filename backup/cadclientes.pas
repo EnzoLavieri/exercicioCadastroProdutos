@@ -5,7 +5,7 @@ unit cadClientes;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, cadModelo;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, cadModelo, Types;
 
 type
 

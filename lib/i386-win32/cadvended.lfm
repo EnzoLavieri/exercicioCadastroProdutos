@@ -1,73 +1,90 @@
 inherited cadVendedoresF: TcadVendedoresF
-  Left = 780
-  Top = 531
+  Left = 847
+  Top = 115
+  Width = 734
+  ClientWidth = 734
   inherited PageControl1: TPageControl
+    Width = 734
     ActivePage = TabSheet2
     TabIndex = 1
+    inherited TabSheet1: TTabSheet
+      ClientWidth = 726
+      inherited Panel1: TPanel
+        Width = 726
+        ClientWidth = 726
+      end
+      inherited Panel2: TPanel
+        Width = 726
+        ClientWidth = 726
+      end
+      inherited StringGrid1: TStringGrid
+        Width = 726
+      end
+    end
     inherited TabSheet2: TTabSheet
       ClientHeight = 567
-      ClientWidth = 762
+      ClientWidth = 726
       object edtIdVendedores: TEdit[0]
-        Left = 192
+        Left = 24
         Height = 23
-        Top = 40
-        Width = 160
+        Top = 136
+        Width = 64
         TabOrder = 0
         Text = 'edtIdVendedores'
       end
       object edtCnpjCpf: TEdit[1]
-        Left = 192
+        Left = 96
         Height = 23
-        Top = 88
-        Width = 160
+        Top = 136
+        Width = 88
         TabOrder = 1
         Text = 'edtCnpjCpf'
       end
       object edtPctComis: TEdit[2]
-        Left = 192
+        Left = 187
         Height = 23
-        Top = 336
-        Width = 160
+        Top = 136
+        Width = 32
         TabOrder = 2
         Text = 'edtPctComis'
       end
       object edtNomeFantasia: TEdit[3]
-        Left = 192
+        Left = 24
         Height = 23
-        Top = 136
-        Width = 160
+        Top = 184
+        Width = 184
         TabOrder = 3
         Text = 'edtNomeFantasia'
       end
       object edtRazaoSocial: TEdit[4]
-        Left = 192
+        Left = 24
         Height = 23
-        Top = 176
-        Width = 160
+        Top = 232
+        Width = 184
         TabOrder = 4
         Text = 'edtRazaoSocial'
       end
       object edtEndereco: TEdit[5]
-        Left = 192
+        Left = 24
         Height = 23
-        Top = 216
-        Width = 160
+        Top = 40
+        Width = 192
         TabOrder = 5
         Text = 'edtEndereco'
       end
       object edtTelefone: TEdit[6]
-        Left = 192
+        Left = 24
         Height = 23
-        Top = 256
-        Width = 160
+        Top = 280
+        Width = 184
         TabOrder = 6
         Text = 'edtTelefone'
       end
       object edtEmail: TEdit[7]
-        Left = 192
+        Left = 24
         Height = 23
-        Top = 296
-        Width = 160
+        Top = 88
+        Width = 192
         TabOrder = 7
         Text = 'edtEmail'
       end
@@ -86,6 +103,13 @@ inherited cadVendedoresF: TcadVendedoresF
         Width = 75
         Caption = 'btnCancelar'
         TabOrder = 9
+      end
+      object Label2: TLabel[10]
+        Left = 24
+        Height = 15
+        Top = 72
+        Width = 34
+        Caption = 'Label2'
       end
     end
   end

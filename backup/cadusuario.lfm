@@ -1,102 +1,173 @@
 inherited cadUsuarioF: TcadUsuarioF
-  Left = 864
-  Top = 288
+  Left = 324
+  Top = 115
+  Width = 516
+  Caption = 'Cadastro usuario'
+  ClientWidth = 516
   inherited PageControl1: TPageControl
+    Width = 516
     ActivePage = TabSheet2
     TabIndex = 1
-    inherited TabSheet2: TTabSheet
-      ClientHeight = 567
-      ClientWidth = 762
-      object edtIdCadUsuario: TEdit[0]
-        Left = 216
-        Height = 23
-        Top = 80
-        Width = 168
-        TabOrder = 0
-        Text = 'edtIdCadUsuario'
+    inherited TabSheet1: TTabSheet
+      ClientWidth = 508
+      inherited Panel1: TPanel
+        Width = 508
+        ClientWidth = 508
       end
-      object edtCnpjCpf: TEdit[1]
-        Left = 216
-        Height = 23
-        Top = 128
-        Width = 168
-        TabOrder = 1
-        Text = 'edtCnpjCpf'
+      inherited Panel2: TPanel
+        Width = 508
+        ClientWidth = 508
       end
-      object edtNomeFantasia: TEdit[2]
-        Left = 216
-        Height = 23
-        Top = 176
-        Width = 168
-        TabOrder = 2
-        Text = 'edtNomeFantasia'
-      end
-      object edtRazaoSocial: TEdit[3]
-        Left = 216
-        Height = 23
-        Top = 224
-        Width = 168
-        TabOrder = 3
-        Text = 'edtRazaoSocial'
-      end
-      object edtEndereco: TEdit[4]
-        Left = 216
-        Height = 23
-        Top = 272
-        Width = 168
-        TabOrder = 4
-        Text = 'edtEndereco'
-      end
-      object edtTelefone: TEdit[5]
-        Left = 216
-        Height = 23
-        Top = 320
-        Width = 168
-        TabOrder = 5
-        Text = 'edtTelefone'
-      end
-      object edtEmail: TEdit[6]
-        Left = 216
-        Height = 23
-        Top = 368
-        Width = 168
-        TabOrder = 6
-        Text = 'edtEmail'
-      end
-      object edtUsuario: TEdit[7]
-        Left = 216
-        Height = 23
-        Top = 400
-        Width = 80
-        TabOrder = 7
-        Text = 'edtUsuario'
-      end
-      object btnSalvarUser: TButton[8]
-        Left = 216
-        Height = 25
-        Top = 440
-        Width = 75
-        Caption = 'btnSalvarUser'
-        TabOrder = 8
-        OnClick = btnSalvarUserClick
+      inherited StringGrid1: TStringGrid
+        Width = 508
       end
     end
-  end
-  object edtSenha: TEdit[1]
-    Left = 312
-    Height = 23
-    Top = 424
-    Width = 80
-    TabOrder = 1
-    Text = 'edtSenha'
-  end
-  object btnCancelar: TButton[2]
-    Left = 312
-    Height = 25
-    Top = 464
-    Width = 75
-    Caption = 'btnCancelar'
-    TabOrder = 2
-    OnClick = btnCancelarClick
+    inherited TabSheet2: TTabSheet
+      ClientHeight = 567
+      ClientWidth = 508
+      object edtIdCadUsuario: TEdit[0]
+        Left = 24
+        Height = 23
+        Top = 184
+        Width = 64
+        TabOrder = 0
+      end
+      object edtCnpjCpf: TEdit[1]
+        Left = 104
+        Height = 23
+        Top = 184
+        Width = 88
+        TabOrder = 1
+      end
+      object edtNomeFantasia: TEdit[2]
+        Left = 24
+        Height = 23
+        Top = 232
+        Width = 168
+        TabOrder = 2
+      end
+      object edtRazaoSocial: TEdit[3]
+        Left = 24
+        Height = 23
+        Top = 280
+        Width = 168
+        TabOrder = 3
+      end
+      object edtEndereco: TEdit[4]
+        Left = 24
+        Height = 23
+        Top = 88
+        Width = 192
+        TabOrder = 4
+      end
+      object edtTelefone: TEdit[5]
+        Left = 24
+        Height = 23
+        Top = 328
+        Width = 136
+        TabOrder = 5
+      end
+      object edtEmail: TEdit[6]
+        Left = 24
+        Height = 23
+        Top = 136
+        Width = 192
+        TabOrder = 6
+      end
+      object edtUsuario: TEdit[7]
+        Left = 24
+        Height = 23
+        Top = 40
+        Width = 100
+        TabOrder = 7
+      end
+      object btnSalvarUser: TButton[8]
+        Left = 24
+        Height = 25
+        Top = 360
+        Width = 64
+        Caption = 'Salvar'
+        TabOrder = 8
+      end
+      object Label2: TLabel[9]
+        Left = 24
+        Height = 15
+        Top = 24
+        Width = 43
+        Caption = 'Usuario:'
+      end
+      object Label3: TLabel[10]
+        Left = 144
+        Height = 15
+        Top = 24
+        Width = 32
+        Caption = 'Senha'
+      end
+      object Label4: TLabel[11]
+        Left = 24
+        Height = 15
+        Top = 72
+        Width = 52
+        Caption = 'Endereco:'
+      end
+      object Label5: TLabel[12]
+        Left = 24
+        Height = 15
+        Top = 120
+        Width = 32
+        Caption = 'Email:'
+      end
+      object Label6: TLabel[13]
+        Left = 24
+        Height = 15
+        Top = 168
+        Width = 14
+        Caption = 'ID:'
+      end
+      object Label7: TLabel[14]
+        Left = 104
+        Height = 15
+        Top = 168
+        Width = 53
+        Caption = 'CPF/CNPJ'
+      end
+      object Label8: TLabel[15]
+        Left = 24
+        Height = 15
+        Top = 216
+        Width = 80
+        Caption = 'Nome fantasia:'
+      end
+      object Label9: TLabel[16]
+        Left = 24
+        Height = 15
+        Top = 264
+        Width = 67
+        Caption = 'Razao social:'
+      end
+      object Label10: TLabel[17]
+        Left = 24
+        Height = 15
+        Top = 312
+        Width = 47
+        Caption = 'Telefone:'
+      end
+      object edtSenha: TEdit[18]
+        Left = 144
+        Height = 23
+        Top = 64
+        Width = 100
+        TabOrder = 9
+      end
+      object btnCancelar: TButton[19]
+        Left = 96
+        Height = 25
+        Top = 360
+        Width = 64
+        Caption = 'Cancelar'
+        TabOrder = 10
+        OnClick = btnCancelarClick
+      end
+    end
   end
 end

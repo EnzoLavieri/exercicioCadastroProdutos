@@ -1,66 +1,66 @@
 object opLoginF: TopLoginF
-  Left = 1016
+  Left = 763
   Height = 545
-  Top = 263
+  Top = 224
   Width = 716
   Caption = 'opLoginF'
   ClientHeight = 545
   ClientWidth = 716
   LCLVersion = '3.8.0.0'
   object edtEmail: TEdit
-    Left = 272
+    Left = 24
     Height = 23
-    Top = 208
+    Top = 88
     Width = 184
     Alignment = taCenter
     TabOrder = 0
   end
   object edtSenha: TEdit
-    Left = 272
+    Left = 24
     Height = 23
-    Top = 160
+    Top = 40
     Width = 184
     Alignment = taCenter
     TabOrder = 1
   end
   object btnLogar: TButton
-    Left = 280
+    Left = 24
     Height = 25
-    Top = 288
-    Width = 75
+    Top = 152
+    Width = 88
     Caption = 'Logar'
     TabOrder = 2
     OnClick = btnLogarClick
   end
   object btnEsqueciSenha: TButton
-    Left = 272
+    Left = 24
     Height = 25
-    Top = 248
+    Top = 120
     Width = 184
     Caption = 'Esqueci minha senha'
     TabOrder = 3
     OnClick = btnEsqueciSenhaClick
   end
   object btnSair: TButton
-    Left = 368
+    Left = 120
     Height = 25
-    Top = 288
-    Width = 75
+    Top = 152
+    Width = 88
     Caption = 'Sair'
     TabOrder = 4
     OnClick = btnSairClick
   end
   object Label1: TLabel
-    Left = 224
+    Left = 24
     Height = 15
-    Top = 164
+    Top = 24
     Width = 32
     Caption = 'Email:'
   end
   object Label2: TLabel
-    Left = 224
+    Left = 24
     Height = 15
-    Top = 212
+    Top = 72
     Width = 35
     Caption = 'Senha:'
   end

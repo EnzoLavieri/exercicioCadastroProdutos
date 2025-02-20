@@ -20,16 +20,16 @@ begin
   RequireDerivedFormResource:=True;
   Application.Scaled:=True;
   Application.Initialize;
+  Application.CreateForm(TcadVendedoresF, cadVendedoresF);
   Application.CreateForm(TopLoginF, opLoginF);
+  Application.CreateForm(TcadProdutosF, cadProdutosF);
+  Application.CreateForm(TcadClienteF, cadClienteF);
   Application.CreateForm(TcadModeloF, cadModeloF);
   Application.CreateForm(TcadEsqSenhaf, cadEsqSenhaf);
   Application.CreateForm(TmenuPrincipalF, menuPrincipalF);
   Application.CreateForm(TopSobreF, opSobreF);
-  Application.CreateForm(TcadClienteF, cadClienteF);
-  Application.CreateForm(TcadProdutosF, cadProdutosF);
   Application.CreateForm(TcadUsuarioF, cadUsuarioF);
   Application.CreateForm(TcadForecF, cadForecF);
-  Application.CreateForm(TcadVendedoresF, cadVendedoresF);
   Application.Run;
 end.
 

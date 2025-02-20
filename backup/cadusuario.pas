@@ -12,8 +12,9 @@ type
   { TcadUsuarioF }
 
   TcadUsuarioF = class(TcadModeloF)
-    btnSalvarUser: TButton;
+    //btnSalvarUser: TButton;
     btnCancelar: TButton;
+    btnSalvarUser: TButton;
     edtUsuario: TEdit;
     edtSenha: TEdit;
     edtIdCadUsuario: TEdit;
@@ -23,6 +24,15 @@ type
     edtEndereco: TEdit;
     edtTelefone: TEdit;
     edtEmail: TEdit;
+    Label10: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
     procedure btnCancelarClick(Sender: TObject);
   private
 

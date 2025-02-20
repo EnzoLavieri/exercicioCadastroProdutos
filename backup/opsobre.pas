@@ -13,6 +13,7 @@ type
 
   TopSobreF = class(TForm)
     Memo1: TMemo;
+    procedure Memo1Change(Sender: TObject);
   private
 
   public
@@ -25,6 +26,13 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TopSobreF }
+
+procedure TopSobreF.Memo1Change(Sender: TObject);
+begin
+
+end;
 
 end.
 

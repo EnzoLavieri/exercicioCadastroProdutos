@@ -1,7 +1,7 @@
 object cadModeloF: TcadModeloF
-  Left = 1114
+  Left = 906
   Height = 595
-  Top = 249
+  Top = 173
   Width = 770
   Caption = 'cadModeloF'
   ClientHeight = 595
@@ -28,6 +28,9 @@ object cadModeloF: TcadModeloF
         Align = alTop
         ClientHeight = 50
         ClientWidth = 762
+        Color = clActiveCaption
+        ParentBackground = False
+        ParentColor = False
         TabOrder = 0
         object Label1: TLabel
           Left = 40
@@ -60,9 +63,12 @@ object cadModeloF: TcadModeloF
         Align = alBottom
         ClientHeight = 50
         ClientWidth = 762
+        Color = clActiveCaption
+        ParentBackground = False
+        ParentColor = False
         TabOrder = 1
         object btnSalvar: TBitBtn
-          Left = 32
+          Left = 16
           Height = 30
           Top = 8
           Width = 75

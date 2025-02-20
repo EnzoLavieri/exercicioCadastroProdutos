@@ -23,8 +23,6 @@ type
     procedure btnEsqueciSenhaClick(Sender: TObject);
     procedure btnLogarClick(Sender: TObject);
     procedure btnSairClick(Sender: TObject);
-    procedure FormCreate(Sender: TObject);
-    procedure Panel1Click(Sender: TObject);
   private
 
   public
