@@ -12,6 +12,8 @@ type
   { TcadProdutosF }
 
   TcadProdutosF = class(TcadModeloF)
+    btnCancelar: TButton;
+    btnSalvarProdutos: TButton;
     cbTipoProduto: TComboBox;
     edtIdCadProduto: TEdit;
     edtDescSimples: TEdit;
@@ -21,6 +23,7 @@ type
     Label3: TLabel;
     Label4: TLabel;
     Label5: TLabel;
+    Label6: TLabel;
   private
 
   public

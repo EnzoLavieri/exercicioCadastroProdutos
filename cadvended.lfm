@@ -94,6 +94,7 @@ inherited cadVendedoresF: TcadVendedoresF
         Width = 75
         Caption = 'Cancelar'
         TabOrder = 9
+        OnClick = btnCancelarClick
       end
       object Label2: TLabel[10]
         Left = 24

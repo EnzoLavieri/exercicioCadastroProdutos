@@ -1,7 +1,7 @@
 object opSobreF: TopSobreF
-  Left = 547
+  Left = 332
   Height = 550
-  Top = 144
+  Top = 115
   Width = 719
   Caption = 'Sobre'
   ClientHeight = 550

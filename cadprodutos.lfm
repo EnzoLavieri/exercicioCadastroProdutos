@@ -1,12 +1,22 @@
 inherited cadProdutosF: TcadProdutosF
-  Left = 726
-  Top = 122
+  Left = 549
+  Height = 567
+  Top = 174
   Caption = 'Cadastro de produtos'
+  ClientHeight = 567
   inherited PageControl1: TPageControl
-    ActivePage = TabSheet2
-    TabIndex = 1
+    Height = 567
+    inherited TabSheet1: TTabSheet
+      ClientHeight = 539
+      inherited Panel2: TPanel
+        Top = 479
+      end
+      inherited StringGrid1: TStringGrid
+        Height = 419
+      end
+    end
     inherited TabSheet2: TTabSheet
-      ClientHeight = 567
+      ClientHeight = 539
       ClientWidth = 762
       object edtIdCadProduto: TEdit[0]
         Left = 24
@@ -101,6 +111,7 @@ inherited cadProdutosF: TcadProdutosF
         Width = 64
         Caption = 'Cancelar'
         TabOrder = 6
+        OnClick = btnCancelarClick
       end
     end
   end

@@ -24,6 +24,7 @@ type
     Label4: TLabel;
     Label5: TLabel;
     Label6: TLabel;
+    procedure btnCancelarClick(Sender: TObject);
   private
 
   public
@@ -36,6 +37,13 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TcadProdutosF }
+
+procedure TcadProdutosF.btnCancelarClick(Sender: TObject);
+begin
+  Close;
+end;
 
 end.
 

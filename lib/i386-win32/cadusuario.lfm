@@ -1,24 +1,44 @@
 inherited cadUsuarioF: TcadUsuarioF
-  Left = 324
-  Top = 115
+  Left = 294
+  Top = 97
   Width = 516
   Caption = 'Cadastro usuario'
   ClientWidth = 516
   inherited PageControl1: TPageControl
     Width = 516
-    ActivePage = TabSheet2
-    TabIndex = 1
     inherited TabSheet1: TTabSheet
       ClientWidth = 508
       inherited Panel1: TPanel
+        Height = 50
         Width = 508
+        ClientHeight = 50
         ClientWidth = 508
+        inherited Label1: TLabel
+          Top = 24
+        end
+        inherited btnPesquisar: TButton
+          Top = 16
+        end
+        inherited edtPesqID: TEdit
+          Top = 20
+        end
       end
       inherited Panel2: TPanel
+        Height = 50
+        Top = 517
         Width = 508
+        ClientHeight = 50
         ClientWidth = 508
+        inherited btnSalvar: TBitBtn
+          Top = 8
+        end
+        inherited btnSair: TBitBtn
+          Top = 8
+        end
       end
       inherited StringGrid1: TStringGrid
+        Height = 467
+        Top = 50
         Width = 508
       end
     end
@@ -78,7 +98,7 @@ inherited cadUsuarioF: TcadUsuarioF
         Left = 24
         Height = 23
         Top = 40
-        Width = 100
+        Width = 108
         TabOrder = 7
       end
       object btnSalvarUser: TButton[8]
@@ -152,22 +172,22 @@ inherited cadUsuarioF: TcadUsuarioF
         Width = 47
         Caption = 'Telefone:'
       end
+      object edtSenha: TEdit[18]
+        Left = 144
+        Height = 23
+        Top = 40
+        Width = 100
+        TabOrder = 9
+      end
+      object btnCancelar: TButton[19]
+        Left = 96
+        Height = 25
+        Top = 360
+        Width = 64
+        Caption = 'Cancelar'
+        TabOrder = 10
+        OnClick = btnCancelarClick
+      end
     end
-  end
-  object edtSenha: TEdit[1]
-    Left = 144
-    Height = 23
-    Top = 64
-    Width = 100
-    TabOrder = 1
-  end
-  object btnCancelar: TButton[2]
-    Left = 104
-    Height = 25
-    Top = 384
-    Width = 64
-    Caption = 'Cancelar'
-    TabOrder = 2
-    OnClick = btnCancelarClick
   end
 end
