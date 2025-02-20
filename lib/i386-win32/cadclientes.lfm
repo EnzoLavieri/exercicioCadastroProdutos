@@ -1,10 +1,9 @@
 inherited cadClienteF: TcadClienteF
-  Left = 354
-  Top = 117
+  Left = 1125
+  Top = 138
   Width = 716
   Caption = 'Cadastro cliente'
   ClientWidth = 716
-  WindowState = wsMaximized
   inherited PageControl1: TPageControl
     Width = 716
     inherited TabSheet1: TTabSheet

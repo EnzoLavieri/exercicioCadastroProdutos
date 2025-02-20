@@ -1,32 +1,29 @@
 inherited cadClienteF: TcadClienteF
   Left = 354
   Top = 117
-  Width = 326
+  Width = 716
   Caption = 'Cadastro cliente'
-  ClientHeight = 0
-  ClientWidth = 0
+  ClientWidth = 716
+  WindowState = wsMaximized
   inherited PageControl1: TPageControl
-    Height = 0
-    Width = 0
+    Width = 716
     inherited TabSheet1: TTabSheet
-      ClientHeight = 0
-      ClientWidth = 0
+      ClientWidth = 708
       inherited Panel1: TPanel
-        Width = 0
-        ClientWidth = 0
+        Width = 708
+        ClientWidth = 708
       end
       inherited Panel2: TPanel
-        Top = -50
-        Width = 0
-        ClientWidth = 0
+        Width = 708
+        ClientWidth = 708
       end
       inherited StringGrid1: TStringGrid
-        Height = 0
-        Top = 0
-        Width = 0
+        Width = 708
       end
     end
     inherited TabSheet2: TTabSheet
+      ClientHeight = 567
+      ClientWidth = 708
       object edtIdCadCliente: TEdit[0]
         Left = 24
         Height = 23
